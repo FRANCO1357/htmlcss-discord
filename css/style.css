@@ -17,7 +17,8 @@ header{
     height: 600px;
     background-color: dodgerblue;
     color: white;
-    background-image: url("img/jumbo.png");
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
 }
 
 .container{
@@ -87,4 +88,36 @@ a{
     padding: 15px 25px;
     border-radius: 40px;
     margin: 0 10px;
+}
+
+section{
+    min-height: 600px;
+    color: rgb(45, 45, 45);
+}
+
+section .container{
+    display: flex;
+    padding: 50px;
+}
+
+.image{
+    width: 60%;
+}
+
+.text{
+    width: 40%;
+    padding: 0 100px;
+}
+
+.text p{
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.second{
+    background-color: rgb(244, 244, 244);
+}
+
+.second .container{
+    flex-direction: row-reverse;
 }
