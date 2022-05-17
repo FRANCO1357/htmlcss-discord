@@ -222,3 +222,7 @@ hr{
     padding: 10px 15px;
     border-radius: 20px;
 }
+
+.social i{
+    margin: 0 10px;
+}
