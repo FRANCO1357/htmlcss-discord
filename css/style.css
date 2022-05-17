@@ -9,6 +9,11 @@ h1{
     font-size: 44px;
 }
 
+h2{
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
 p{
     font-size: 18px;
 }
@@ -97,7 +102,7 @@ section{
 
 section .container{
     display: flex;
-    padding: 50px;
+    padding: 80px;
 }
 
 .image{
@@ -114,10 +119,31 @@ section .container{
     line-height: 30px;
 }
 
-.second{
+.second, .fourth{
     background-color: rgb(244, 244, 244);
 }
 
 .second .container{
     flex-direction: row-reverse;
+}
+
+.fourth .container{
+    flex-direction: column;
+    text-align: center;
+}
+
+.fourth p{
+    padding: 0 100px;
+}
+
+.fourth a{
+    background-color: rgb(158, 186, 245);
+    font-size: 24px;
+    padding: 18px 30px;
+    border-radius: 40px;
+}
+button{
+    background-color: green;
+    display: flex;
+    justify-content: center;
 }
