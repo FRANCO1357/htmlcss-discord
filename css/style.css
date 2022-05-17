@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    height: 600px;
+    background-color: dodgerblue;
+    color: white;
+    background-image: url("img/jumbo.png");
+}
+
+nav{
+    height: 80px;
+    border: 1px solid white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
